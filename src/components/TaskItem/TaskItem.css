@@ -1,0 +1,40 @@
+td {
+    padding: 15px 0px;
+    text-align: center;
+    width: 25%;
+  }
+  
+  .cartel-estado {
+      display: inline;
+      padding: 4px 12px;
+      background-color: #9bc1bc;
+      color: white;
+      font-size: 13px;
+      border-radius: 5px;
+      box-shadow: 0px 1px 5px 0px #9bc1bc;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+  }
+  
+  .cartel-estado:hover {
+    background-color: #8cb8b3;
+  }
+  
+  .cartel-estado:active {
+    background-color: #6b8985;
+  }
+  
+  .cerrar {
+      color: rgb(216, 0, 0);
+      font-size: 16px;
+      font-weight: 400;
+      text-shadow: 0px 1px 4px rgb(204, 0, 0);
+      cursor: pointer;
+  }
+  
+  
+  .cerrar:hover {
+      color: red;
+      text-shadow: 0px 1px 6px red;
+      font-weight: 500;
+  }
