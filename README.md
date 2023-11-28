@@ -1,5 +1,7 @@
-Tp final integrador
+# Tp final integrador
 
-GRUPO 7 : Agustin Ceballos
-          Julian Mas
+## GRUPO 7 : 
+#### Agustin Ceballos 
+#### Julian Mas
+
 
