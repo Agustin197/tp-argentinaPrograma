@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useState } from 'react';
 import './App.css';
 import { TaskForm } from './components/TaskForm/TaskForm';
@@ -7,6 +7,11 @@ import { TaskList } from './components/TaskList/TaskList';
 function App() {
 
   const [tareas, setTareas] = useState([]);
+
+ useEffect(() => {
+  console.log(`La lista de tareas ha cambiado:`, tareas); 
+ },[tareas]);
+
 
   return (
     <>
