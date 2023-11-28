@@ -4,10 +4,26 @@
   margin: 0;
 }
 
+.container{
+height: 900px;
+ width: 50%;
+ /* border: 2px solid red; */
+ margin: auto;
+ margin-top: 10px;
+ border-radius: 33px 33px 33px 33px;
+ -webkit-border-radius: 33px 33px 33px 33px;
+ -moz-border-radius: 33px 33px 33px 33px;
+ background-color: #f7f7ff;
+}
+
+
 .div-titulo {
     background: linear-gradient(45deg, #5C1E55, #5038b0);
     height: 6em;
     text-align: center;
+    border-radius: 33px 33px 33px 33px;
+-webkit-border-radius: 33px 33px 0px 0px;
+-moz-border-radius: 33px 33px 33px 33px;
 }
 
 .titulo {
@@ -15,9 +31,11 @@
   font-size: 3.2em;
   font-weight: 100;
   color: rgba(255, 255, 255, 0.87);
+
 }
 
 .div-contenedor {
   margin: auto;
   max-width: 600px;
+  background-color: white;
 }

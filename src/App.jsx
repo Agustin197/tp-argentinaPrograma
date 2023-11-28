@@ -10,6 +10,7 @@ function App() {
 
   return (
     <>
+    <div className='container'>
       <div className='div-titulo'>
         <h1 className='titulo'>TODO List</h1>
       </div>
@@ -17,12 +18,13 @@ function App() {
         <TaskForm
           setTareas={setTareas}
           tareas={tareas}
-        />
+          />
         <TaskList 
           setTareas={setTareas}
           tareas={tareas}
-        />
+          />
       </div>
+          </div>
     </>
   );
 }
